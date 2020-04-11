@@ -1,18 +1,14 @@
 {
     "manifest_version": 2,
-    "version": "1.0.0",
-    "name": "Testing",
-    "description": "Extension being tested.",
-    "author": "None",
+    "version": "1.0.1",
+    "name": "2Catch4Loop",
+    "description": "Capta dados do site www.minhaconexao.com.br e armazena os valores de ping, download e upload em .log no disco local.",
+    "author": "Gabriel Magni",
     "browser_action": {
-      "default_popup": "popup.html",
-   	  "default_title": "Testing"
+   	  "default_title": "2Catch4Loop"
     },
       "permissions": [
-        "*://*/*",
-        "activeTab",
-        "tabs",
-        "<all_urls>"
+        "https://www.minhaconexao.com.br/"
       ],
       "background": {
         "scripts": ["background.js"],
