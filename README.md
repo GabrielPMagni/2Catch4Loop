@@ -7,8 +7,14 @@
 1. Aguarda carregar site;
 
 ### Implementar:
-1. ;
-1. ;
+1. SSL;
+1. Detectar falhas na conexão;
 1. ;
 1. ;
 
+# Requisições do Sistema
+1. Servidor Apache;
+1. Configurar porta 868 no host local para receber dados via apache;
+1. PHP;
+1. Google Chrome (Browser);
+1. 
